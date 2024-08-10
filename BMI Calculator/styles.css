@@ -1,0 +1,31 @@
+#bmiCalculator {
+    margin: 0 auto;
+    width: 300px ;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px ;
+    background-color: green;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: red;
+}
+
+#result {
+    margin-top: 20px;
+}
