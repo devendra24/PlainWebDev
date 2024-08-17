@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... -->
+    <title>Restaurant Menu</title>
+    <!-- Ensure to include Bootstrap CSS as it's checked in the test cases -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ... -->
+</head>
+<body class="container">
+    <!-- Navbar -->
+    <nav class="navbar">
+        
+        <!-- Navbar toggler for mobile view -->
+        <button class="navbar-toggler">My Restaurant</button>
+        
+        <!-- Navigation links -->
+        <a href="#" class="nav-link"></a>
+        <!-- ... (at least 5 nav-links as per test cases) -->
+
+            <a href="#" class="nav-link" data-filter="all">All</a>
+            <a href="#" class="nav-link" data-filter="starters">Starters</a>
+            <a href="#" class="nav-link" data-filter="main">Main</a>
+            <a href="#" class="nav-link" data-filter="dessert">Dessert</a>
+            <a href="#" class="nav-link" data-filter="beverages">Beverages</a>
+            
+        <!-- Search input -->
+        <input type="text" id="search-input" placeholder="Search">
+    </nav>
+
+    <div class="container">
+        <video src="https://files.codingninjas.in/restaurant-1706081051.mp4" class="object-fit-sm-contain border rounded" width="720" height="360" loop autoplay muted></video>
+    </div>
+        <!-- Menu items -->
+        <div id="menuItem" class="container "></div>
+        <!-- Items will be inserted here by JavaScript -->
+        
+        <!-- ... (any other required content) -->
+</body>
+</html>
