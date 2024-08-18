@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(127, 127, 127);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: rgb(212, 189, 212);
+    border: 1px solid transparent;
+    border-radius: 0.4rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+.centerDiv {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+.centerDiv h1{
+    text-align: center;
+}
+.centerDiv textarea{
+    height: 10rem;
+    width: 25rem;
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+}
+.centerDiv button{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid transparent;
+    background-color: rgb(253, 0, 0);
+    color: rgba(255, 255, 255, 0.823);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+#msg{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
