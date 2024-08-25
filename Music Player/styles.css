@@ -1,0 +1,108 @@
+/* Write your desired css */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: #020847;
+}
+
+.audio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.audio-img-wrapper{
+    margin: 1rem;
+    text-align: center;
+}
+
+.audio-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.6rem solid #8b6ced;
+    border-radius: 20rem;
+}
+
+.audio-img img{
+    margin: 0.7rem;
+    height: 17rem;
+    width: 17rem;
+    border: 1px solid transparent;
+    border-radius: 17rem;
+}
+
+.audio-title{
+    font-size: 2rem;
+}
+
+.audio-singer{
+    margin-top: -1.5rem; ;
+    font-size: 1rem;
+    color: rgba(128, 128, 128, 0.812);
+}
+
+.audio-progress{
+    position: relative;
+}
+.progress{
+    background-color: grey;
+    width: 40rem;
+    height: 0.4rem;
+    margin: 1rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+.progress-bar{
+    display: block;
+    background-color: white;
+    height: 0.4rem;
+    width: 10%;
+}
+
+.progress-head{
+    display: block;
+    transform: translateX(1rem) translateY(-60%);
+    background-color: rgb(255, 255, 255);
+    width: 1rem;
+    height: 1rem;
+    border: 0.2rem solid rgb(184, 184, 184);
+    border-radius: 1rem;
+    transition: transform 1s ease ;
+}
+.current-time{
+    padding: 0.4rem;
+    font-weight: 100;
+    float: left;
+}
+
+.duration{
+    padding: 0.4rem;
+    font-weight: 100;
+    float: right;
+}
+
+.audio-btns{
+}
+.btn{
+    background: transparent;
+    color: white;
+    border: 1px solid transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 1rem;
+
+}
+
+.play{
+    padding: 1rem;
+    background-image: linear-gradient(to right,#041093,#6d54ba);
+    border-radius: 3rem;
+}
