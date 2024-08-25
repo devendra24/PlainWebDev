@@ -1,0 +1,130 @@
+/* Write your desired css here */
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.carousel{
+    background-image: url(./carousel2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    transition: background-image 0.5s ease-out;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-container{
+    background-color: rgba(255, 255, 255, 0.602);
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.app-container h2{
+    color: #dc501d;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#dropzone{
+    background-color: rgba(250, 241, 209, 0.737);
+    font-size: 0.6rem;
+    text-align: center;
+    border: 0.1rem dashed #dc501d;
+    border-radius: 0.5rem;
+    animation: 0.7s ease 0s 1 slideInFromLeft;
+}
+
+#dropzone span{
+    color: rgb(220, 74, 21);
+    text-decoration-line: underline;
+}
+
+#dropzone:hover{
+    background-color: rgba(213, 218, 227, 0.792);
+    cursor: pointer;
+}
+
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 15rem;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.thumbnail{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 1.8rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.cancel-button{
+    color: rgb(220, 74, 21);
+    background-color: green;
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.text-area {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 0.2rem;
+    width: 11rem;
+    height: 1.5rem;
+}
+
+.file-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    background-color: rgb(249, 246, 158);
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+    padding: 0.3rem;
+    animation: 0.7s ease 0s 1 slideInFromLeft;
+    transition: background-color 0.8s ease;
+}
+
+.file-name:hover{
+    background-color: rgba(213, 218, 227, 0.829);;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+.file-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+    padding: 0.1rem;
+}
